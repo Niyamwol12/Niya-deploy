@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Nasif40/Niyamwol-v1 /root/Niyamwol-v1
+RUN git clone https://github.com/Nasif40/Niya-deploy /root/Niyamwol-v1
 WORKDIR /root/Niyamwol-v1
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
